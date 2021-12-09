@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mumtaz</title>
+  </head>
+  <body>
+    <h1>Registrasi</h1>
+    <button id="tombol1" onclick="klik()">Info pengisian</button>
+    <p id="info"></p>
+    <form name="form_daftar" onsubmit="validate()" method="post">
+      Nama : <input type="text" name="nama" />
+      <br />
+      Email : <input type="text" name="email" />
+      <br />
+      Alamat : <input type="text" name="alamat" />
+      <br />
+      No.Hp : <input type="text" name="nomorHp" />
+      <br />
+      <button type="submit" id="tombol2">Register</button>
+    </form>
+    <p id="hasil"></p>
+    <script src="validasi.js"></script>
+  </body>
+</html>
